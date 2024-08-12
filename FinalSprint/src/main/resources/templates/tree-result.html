@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Tree Structure</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2rem;
+            color: #343a40;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+        a {
+            font-size: 1rem;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1 class="text-center">Binary Search Tree Structure</h1>
+        <p class="text-center">Tree Structure: <span th:text="${treeJson}">No tree data available</span></p>
+        <div class="text-center">
+            <a href="/enter-numbers" class="btn btn-primary">Enter More Numbers</a>
+            <a href="/previous-trees" class="btn btn-secondary">Show Previous Trees</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
